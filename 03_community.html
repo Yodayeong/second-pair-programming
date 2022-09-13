@@ -65,10 +65,13 @@
 
          <!-- community -->
          <div>
-            <h2>Community</h2>
+            <h2 style="text-align:center; margin:4rem;">Community</h2>
             <div class="container">
+              <div class="row">
+
+
                 <!-- 게시판 목록(파란색 표) 담는 div-->
-                <div class="row">
+                <div class="col-md-2">
                     <ul class="list-group">
                         <li class="list-group-item"><a href="" style="text-decoration:none;">Boxoffice</a></li>
                         <li class="list-group-item"><a href="" style="text-decoration:none;">Movies</a></li>
@@ -76,8 +79,10 @@
                         <li class="list-group-item"><a href="" style="text-decoration:none;">Actors</a></li>
                       </ul>
                 </div>
+
+
                 <!-- 게시판(검은색 표) 담는 div-->
-                <div class="row">
+                <div class="col-md-10">
                     <table class="table table-striped">
                         <thead>
                           <tr class="table-dark">
@@ -118,8 +123,10 @@
                         </tbody>
                       </table>
                 </div>
+              </div>
             </div>
-            <div>
+            <!--pagination-->
+            <div style="display:flex; justify-content:center; margin:1.5rem;">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
                       <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -131,7 +138,56 @@
                   </nav>
                   </div> 
             </div>
-         </div>
+
+            <!--게시판 목록(카드형)-->
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-md-3 col-sm-12" style="margin:0;">
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">Best Movie Ever</h5>
+                <h6 class="card-subtitle mb-2" style="color:black; font-size:17px;">Great Movie Title</h6>
+                <p class="card-text">user</p>
+                <p style="font-size:15px;">1 minute ago</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-12" style="margin:0;">
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">Movie Test</h5>
+                <h6 class="card-subtitle mb-2" style="color:black; font-size:17px;">Great Movie Title</h6>
+                <p class="card-text">user</p>
+                <p style="font-size:15px;">1 minute ago</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-12" style="margin:0;">
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">Movie Test</h5>
+                <h6 class="card-subtitle mb-2" style="color:black; font-size:17px;">Great Movie Title</h6>
+                <p class="card-text">user</p>
+                <p style="font-size:15px;">1 minute ago</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-12" style="margin:0;">
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">Movie Test</h5>
+                <h6 class="card-subtitle mb-2" style="color:black; font-size:17px;">Great Movie Title</h6>
+                <p class="card-text">user</p>
+                <p style="font-size:15px;">1 minute ago</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+
 
 
 
