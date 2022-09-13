@@ -1,0 +1,17 @@
+/*box office*/
+
+.boxoffice-list{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding:0 50px 0 50px;
+    margin-bottom:1rem;
+}
+
+.boxoffice-img{
+    height:400px; 
+    border-radius:5px; 
+    margin:0.8rem;
+    flex-basis:576px;
+    flex-grow:1;
+}

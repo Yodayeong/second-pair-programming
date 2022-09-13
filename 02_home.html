@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-  <!--nav bar-->
+
+    <!--nav bar-->
     <nav class="navbar navbar-expand-lg bg-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img style="height:3rem; width:4.25rem;" src="images/logo.png"></a>
@@ -25,18 +27,17 @@
         </div>
       </nav>
 
-
     <!--banner-->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://dummyimage.com/1920x600/dee2e6/6c757d.jpg" class="d-block w-100" alt="...">
+          <img src="https://dummyimage.com/1920x600/212529/dee2e6.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="https://dummyimage.com/1920x600/dee2e6/6c757d.jpg" class="d-block w-100" alt="...">
+          <img src="https://dummyimage.com/1920x600/212529/dee2e6.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="https://dummyimage.com/1920x600/dee2e6/6c757d.jpg" class="d-block w-100" alt="...">
+          <img src="https://dummyimage.com/1920x600/212529/dee2e6.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -48,6 +49,28 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!--box office-->
+    <div>
+      <h2 style="text-align:center; margin:1.7rem; font-weight:bold;">Boxoffice</h2>
+      <div class="boxoffice-list">
+        <div><img class="boxoffice-img" src="images/movie1.jpg" alt=""></div>
+        <div><img class="boxoffice-img" src="images/movie2.jpg" alt=""></div>
+        <div><img class="boxoffice-img" src="images/movie3.jpg" alt=""></div>
+        <div><img class="boxoffice-img" src="images/movie4.jpg" alt=""></div>
+        <div><img class="boxoffice-img" src="images/movie5.jpg" alt=""></div>
+        <div><img class="boxoffice-img" src="images/movie6.jpg" alt=""></div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <!-- text-center로 화면 가운데에 글자가 오도록-->
+      <div class="text-center bg-light">
+          <p style="font-size:10px;" class="my-0">Web-bootstrap PJT, by 여다영, 이광진, 차화영</p>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
