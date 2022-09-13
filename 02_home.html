@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    
     <!--nav bar-->
     <nav class="navbar navbar-expand-lg bg-dark sticky-top">
         <div class="container-fluid">
@@ -21,10 +21,11 @@
             <div class="navbar-nav">
               <a style="color:white;" class="nav-link active" aria-current="page" href="#">Home</a>
               <a style="color:white; opacity:50%;" class="nav-link" href="#">Community</a>
-              <a style="color:white; opacity:50%;" class="nav-link" href="#">Login</a>
+              <a style="color:white; opacity:50%;" class="nav-link" href="#exampleModal">Login</a>
             </div>
           </div>
         </div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
       </nav>
 
     <!--banner-->
@@ -60,6 +61,40 @@
         <div><img class="boxoffice-img" src="images/movie4.jpg" alt=""></div>
         <div><img class="boxoffice-img" src="images/movie5.jpg" alt=""></div>
         <div><img class="boxoffice-img" src="images/movie6.jpg" alt=""></div>
+      </div>
+    </div>
+
+    <!--Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">  
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Email address:</label>
+                <input type="text" class="form-control" id="recipient-name">
+                <p style="color:gray; font-size:15px; margin-top:0.4rem;">We'll never share your email with anyone else.</p>
+              </div>
+              <div class="mb-3" style="margin:0;">
+                <label for="message-text" class="col-form-label">Password:</label>
+                <input type="text" class="form-control" id="message-text"></input>
+              </div>
+
+            <!--check box-->
+            <div style="display:flex;">
+              <!-- input을 text가 아닌 checkbox로 입력 받기 위함-->
+              <input type="checkbox"><p style="margin-top:1rem; margin-left:5px;">Check me out</p>
+            </div>
+          </form>
+          <hr style="height:1px; border:0; background:rgb(185, 178, 178);">
+          <div style="display:flex; justify-content: right;">
+            <button type="button" class="btn btn-secondary">Close</button> <button type="button" class="btn btn-primary" style="margin-left:0.5rem;">Submit</button>
+          </div>
+        </div>
       </div>
     </div>
 
