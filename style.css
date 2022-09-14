@@ -40,3 +40,11 @@
   --bs-btn-hover-border-color: rgba(165, 165, 165, 0.78);
   --bs-btn-active-bg: rgb(241, 238, 238);
 }
+
+.director-image {
+    height:15rem;
+}
+
+.director-text {
+    padding:0.5rem;
+}
