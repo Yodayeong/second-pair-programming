@@ -28,3 +28,15 @@
 .aside-li{
     border:1px solid rgb(222, 221, 221);
 }
+
+/*button*/
+
+.btn-outline-primary{
+  --bs-btn-color:black;
+  --bs-btn-border-color: rgb(165, 165, 165);
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: rgb(241, 238, 238);
+  --bs-btn-active-border-color: rgb(241, 238, 238);
+  --bs-btn-hover-border-color: rgba(165, 165, 165, 0.78);
+  --bs-btn-active-bg: rgb(241, 238, 238);
+}
