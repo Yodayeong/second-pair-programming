@@ -67,8 +67,7 @@
         <div>
             <h2 style="text-align:center; margin:4rem;">Community</h2>
             <div class="container">
-              <div class="row">
-
+              <div class="row g-2">
 
                 <!-- 게시판 목록(파란색 표) 담는 div-->
                 <div class="col-md-2" style="padding-bottom:3.5rem;">
@@ -82,6 +81,7 @@
 
 
                 <!-- 게시판(검은색 표) 담는 div-->
+                <!-- d-none d-lg-table 으로 검은색 표를 전체화면에서 보이지 않게 함-->
                 <div class="col-md-10 d-none d-lg-table">
                     <table class="table table-striped">
                         <thead>
@@ -126,9 +126,15 @@
               </div>
             </div>
 
-            <!--게시판 목록(카드형)-->
+
+        <!--게시판 목록(카드형)-->
         <div class="container d-lg-none">
           <div class="row g-5">
+            
+        <!--게시판 목록(카드형)-->
+        <!-- d-lg-none 으로 전체화면에서 카드 숨김-->    
+        <div class="container d-lg-none">
+          <div class="row">
             <div class="col-md-3 col-sm-12" style="margin:0;">
             <div class="card my-2"  >
               <div class="card-body">
@@ -171,7 +177,7 @@
             </div>
           </div>
         </div>
-
+        </div>
         </div>
 
         <!--pagination-->
@@ -184,9 +190,11 @@
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
               </ul>
-            </nav>
-            </div> 
+          </nav>
+        </div> 
       </div>
+    </div>
+
 
           <!--footer-->
           <footer>
