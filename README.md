@@ -1,14 +1,6 @@
 # pair-programming
 creating a web page
 
-## [Contributors]
-<a href="https://github.com/Yodayeong/second-pair-programming/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Yodayeong/second-pair-programming" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
-
 ## [1:2 페어프로그래밍]
 
 - driver 1명, navigator 2명의 역할을 번갈아가면서 함
@@ -43,6 +35,10 @@ Made with [contrib.rocks](https://contrib.rocks).
 
   👉 https://yodayeong.github.io/final_demo/
 
+## [프로젝트 참여자들]
+<a href="https://github.com/Yodayeong/second-pair-programming/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yodayeong/second-pair-programming" />
+</a>
 
 
 ## [후기]
