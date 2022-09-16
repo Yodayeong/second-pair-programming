@@ -1,6 +1,12 @@
 # pair-programming
 creating a web page
 
+## [Contributors]
+<a href="https://github.com/Yodayeong/second-pair-programming/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yodayeong/second-pair-programming" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 
 ## [1:2 페어프로그래밍]
