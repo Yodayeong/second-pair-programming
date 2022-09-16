@@ -1,4 +1,4 @@
-# second-pair-programming
+# pair-programming
 creating a web page
 
 
